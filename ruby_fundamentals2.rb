@@ -34,3 +34,12 @@ puts greet_backwards("Bob")
 puts greet_backwards("Shirly")
 puts greet_backwards("Sue")
 puts greet_backwards("Andy")
+
+# create a method wrap_text that wraps text in symbols of our choice.
+# use it (without modifying the method) to generate the following string: ---===###new message###===---
+
+def wrap_text(text,wrap)
+    return wrap+text+wrap
+end
+
+puts wrap_text(wrap_text(wrap_text("new message","###"),"==="),"---")
