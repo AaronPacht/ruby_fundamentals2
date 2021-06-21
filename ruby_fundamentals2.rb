@@ -9,3 +9,9 @@ end
 def negative?(num)
     return num<0
 end
+
+# Define a method called is_even? that accepts a number as an argument and returns a boolean (true/false) indicating whether that number is even or not
+
+def is_even?(num)
+    return num%2==0
+end
