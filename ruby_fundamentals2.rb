@@ -21,3 +21,16 @@ end
 def len(string)
     return string.length>8
 end
+
+# Create a method called greet_backwards that greets people using their reversed names.
+# Call that method for four different people: "Bob", "Shirly", "Sue", and "Andy".
+# Finally, modify your greet_backwards method to say the person's name twice.
+
+def greet_backwards(name)
+    return "Hello, #{name.reverse+name.reverse}! Welcome home."
+end
+
+puts greet_backwards("Bob")
+puts greet_backwards("Shirly")
+puts greet_backwards("Sue")
+puts greet_backwards("Andy")
