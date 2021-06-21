@@ -15,3 +15,9 @@ end
 def is_even?(num)
     return num%2==0
 end
+
+# Define a method that accepts a string as an argument and returns false if the word is less than 8 characters long (or true otherwise).
+
+def len(string)
+    return string.length>8
+end
