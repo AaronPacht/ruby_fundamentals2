@@ -15,3 +15,7 @@ def time(quantity,string="no message")
         puts string
     end
 end
+
+def baby(name)
+    return {"age":0,"first name":name,"family name":"smith"}
+end
